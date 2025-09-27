@@ -7,6 +7,7 @@ import SearchBar from './SearchBar'
 interface Country {
   code: string
   name: string
+  flag: string
 }
 
 interface TopBarProps {
