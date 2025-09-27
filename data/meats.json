@@ -1,0 +1,127 @@
+{
+  "meta": { 
+    "version": 1, 
+    "category": "meats" 
+  },
+  "countries": [
+    { "code": "AR", "name": "Argentina", "flag": "🇦🇷" },
+    { "code": "VE", "name": "Venezuela", "flag": "🇻🇪" },
+    { "code": "UY", "name": "Uruguay", "flag": "🇺🇾" },
+    { "code": "CL", "name": "Chile", "flag": "🇨🇱" },
+    { "code": "MX", "name": "México", "flag": "🇲🇽" },
+    { "code": "CO", "name": "Colombia", "flag": "🇨🇴" },
+    { "code": "PE", "name": "Perú", "flag": "🇵🇪" }
+  ],
+  "cuts": [
+    {
+      "id": "peceto",
+      "thumbnails": { "default": "/images/meats/peceto.jpg" },
+      "names": { "AR": "Peceto", "VE": "Muchacho redondo", "UY": "Peceto", "CL": "Pollo ganso", "CO": "Bola de pierna", "PE": "Presa de pierna", "MX": "Cuete" }
+    },
+    {
+      "id": "asado",
+      "thumbnails": { "default": "/images/meats/asado.jpg" },
+      "names": { "AR": "Asado de tira", "VE": "Costilla", "UY": "Asado", "CL": "Costillar", "CO": "Costilla de res", "PE": "Costilla", "MX": "Costilla" }
+    },
+    {
+      "id": "bife_chorizo",
+      "thumbnails": { "default": "/images/meats/bife-de-chorizo.jpg" },
+      "names": { "AR": "Bife de chorizo", "VE": "Churrasco", "UY": "Bife de chorizo", "CL": "Lomo liso", "CO": "Churrasco", "PE": "Bife ancho", "MX": "New York" }
+    },
+    {
+      "id": "vacio",
+      "thumbnails": { "default": "/images/meats/vacio.jpg" },
+      "names": { "AR": "Vacío", "VE": "Falda", "UY": "Vacío", "CL": "Sobrecostilla", "CO": "Falda", "PE": "Falda", "MX": "Falda" }
+    },
+    {
+      "id": "entrana",
+      "thumbnails": { "default": "/images/meats/entrana.jpg" },
+      "names": { "AR": "Entraña", "VE": "Entraña", "UY": "Entraña", "CL": "Entraña", "CO": "Entraña", "PE": "Entraña", "MX": "Arrachera" }
+    },
+    {
+      "id": "colita_cuadril",
+      "thumbnails": { "default": "/images/meats/colita.jpg" },
+      "names": { "AR": "Colita de cuadril", "VE": "Punta trasera", "UY": "Colita de cuadril", "CL": "Punta de picana", "CO": "Punta de anca", "PE": "Punta de cuadril", "MX": "Picaña" }
+    },
+    {
+      "id": "matambre",
+      "thumbnails": { "default": "/images/meats/matambre.jpg" },
+      "names": { "AR": "Matambre", "VE": "Sobrebarriga", "UY": "Matambre", "CL": "Malaya", "CO": "Sobrebarriga", "PE": "Malaya", "MX": "Suadero" }
+    },
+    {
+      "id": "ojo_bife",
+      "thumbnails": { "default": "/images/meats/ojo-de-bife.jpg" },
+      "names": { "AR": "Ojo de bife", "VE": "Entrecot", "UY": "Ojo de bife", "CL": "Lomo vetado", "CO": "Entrecot", "PE": "Bife angosto", "MX": "Ribeye" }
+    },
+    {
+      "id": "lomo",
+      "thumbnails": { "default": "/images/meats/lomo.jpg" },
+      "names": { "AR": "Lomo", "VE": "Solomo", "UY": "Lomo", "CL": "Filete", "CO": "Lomo fino", "PE": "Lomo fino", "MX": "Filete" }
+    },
+    {
+      "id": "tapa_asado",
+      "thumbnails": { "default": "/images/meats/tapa-de-asado.jpg" },
+      "names": { "AR": "Tapa de asado", "VE": "Pulpa negra", "UY": "Tapa de asado", "CL": "Tapabarriga", "CO": "Sobrebarriga", "PE": "Asado de tira gruesa", "MX": "Espaldilla" }
+    },
+    {
+      "id": "cuadril",
+      "thumbnails": { "default": "/images/meats/cuadril.jpg" },
+      "names": { "AR": "Cuadril", "VE": "Pulpa bola negra", "UY": "Cuadril", "CL": "Posta rosada", "CO": "Cadera", "PE": "Asado de cadera", "MX": "Cuete" }
+    },
+    {
+      "id": "costilla_cerdo",
+      "thumbnails": { "default": "/images/meats/costillita-cerdo.jpg" },
+      "names": { "AR": "Costilla de cerdo", "VE": "Costilla", "UY": "Costilla", "CL": "Costillar de cerdo", "CO": "Costilla", "PE": "Costillar de cerdo", "MX": "Costillas BBQ" }
+    },
+    {
+      "id": "bondiola",
+      "thumbnails": { "default": "/images/meats/bondiola.jpg" },
+      "names": { "AR": "Bondiola", "VE": "Cabeza de lomo", "UY": "Bondiola", "CL": "Bondiola", "CO": "Cabeza de lomo", "PE": "Cabeza de lomo", "MX": "Cabeza de lomo" }
+    },
+    {
+      "id": "nalga",
+      "thumbnails": { "default": "/images/meats/nalga.jpg" },
+      "names": { "AR": "Nalga", "VE": "Pulpa negra", "UY": "Nalga", "CL": "Posta negra", "CO": "Muchacho", "PE": "Pierna", "MX": "Bola" }
+    },
+    {
+      "id": "bola_lomo",
+      "thumbnails": { "default": "/images/meats/bola-de-lomo.jpg" },
+      "names": { "AR": "Bola de lomo", "VE": "Lagarto", "UY": "Bola de lomo", "CL": "Posta rosada", "CO": "Lagarto", "PE": "Lagarto", "MX": "Aguayón" }
+    },
+    {
+      "id": "osobuco",
+      "thumbnails": { "default": "/images/meats/osobuco.jpg" },
+      "names": { "AR": "Osobuco", "VE": "Lagarto con hueso", "UY": "Osobuco", "CL": "Osobuco", "CO": "Lagarto con hueso", "PE": "Osobuco", "MX": "Chamberete" }
+    },
+    {
+      "id": "roast_beef",
+      "thumbnails": { "default": "/images/meats/roast-beef.jpg" },
+      "names": { "AR": "Roast beef", "VE": "Muchacho cuadrado", "UY": "Roast beef", "CL": "Ganso", "CO": "Muchacho", "PE": "Roast beef", "MX": "Roast beef" }
+    },
+    {
+      "id": "solomillo",
+      "thumbnails": { "default": "/images/meats/solomillo.jpg" },
+      "names": { "AR": "Solomillo", "VE": "Solomillo", "UY": "Solomillo", "CL": "Lomo liso", "CO": "Solomillo", "PE": "Solomillo", "MX": "Solomillo" }
+    },
+    {
+      "id": "chuleta_pernil",
+      "thumbnails": { "default": "/images/meats/chuleta-pernil.jpg" },
+      "names": { "AR": "Chuleta de cerdo", "VE": "Chuleta", "UY": "Chuleta", "CL": "Chuleta de cerdo", "CO": "Chuleta", "PE": "Chuleta", "MX": "Chuleta" }
+    },
+    {
+      "id": "mollejas",
+      "thumbnails": { "default": "/images/meats/molleja.jpg" },
+      "names": { "AR": "Mollejas", "VE": "Mollejas", "UY": "Mollejas", "CL": "Mollejas", "CO": "Mollejas", "PE": "Mollejas", "MX": "Mollejas" }
+    },
+    {
+      "id": "chorizo",
+      "thumbnails": { "default": "/images/meats/chorizo.jpg" },
+      "names": { "AR": "Chorizo", "VE": "Chorizo", "UY": "Chorizo", "CL": "Longaniza", "CO": "Chorizo", "PE": "Chorizo", "MX": "Chorizo" }
+    },
+    {
+      "id": "morcilla",
+      "thumbnails": { "default": "/images/meats/morcilla-rosca.jpg" },
+      "names": { "AR": "Morcilla", "VE": "Morcilla", "UY": "Morcilla", "CL": "Prieta", "CO": "Morcilla", "PE": "Morcilla", "MX": "Morcilla" }
+    }
+  ]
+}

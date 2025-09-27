@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-size-multiplier: 1;
+}
+
+.font-size-small {
+  --font-size-multiplier: 0.875;
+}
+
+.font-size-large {
+  --font-size-multiplier: 1.125;
+}
+
+.font-size-xlarge {
+  --font-size-multiplier: 1.25;
+}
+
+* {
+  font-size: calc(1rem * var(--font-size-multiplier));
+}
+
+.high-contrast {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.high-contrast .bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+  border-width: 1px;
+}
+
+.high-contrast .text-gray-600 {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.high-contrast .text-gray-900 {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.high-contrast .border-gray-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Safe area para iOS */
+.safe-area {
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+/* Touch targets */
+button, select, input {
+  touch-action: manipulation;
+  min-height: 44px;
+}
+
+/* Focus visible */
+.focus\:outline-none:focus-visible {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}
