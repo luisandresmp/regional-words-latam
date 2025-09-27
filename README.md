@@ -1,7 +1,7 @@
 # 🥩 Traducciones LATAM - Cortes de Carne
 
 <div align="center">
-  <img src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/04/30/amazon-q-developer-logo.png" alt="Built with Amazon Q Developer" width="200"/>
+  <img src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/05/13/Q-dev-feat-img-new.png" alt="Built with Amazon Q Developer" width="200"/>
   
   **Desarrollado completamente con Amazon Q Developer**
 </div>
@@ -118,7 +118,7 @@ npm run build
 Este proyecto fue desarrollado completamente utilizando **Amazon Q Developer**, demostrando las capacidades de IA para crear aplicaciones web modernas, accesibles y funcionales.
 
 <div align="center">
-  <img src="/images/amazon-q/AmazonQ.png" alt="Captura del chat con Amazon Q Developer" width="600"/>
+  <img src="public/images/amazon-q/AmazonQ.png" alt="Captura del chat con Amazon Q Developer" width="600"/>
   <p><em>Captura real del proceso de desarrollo colaborativo con Amazon Q Developer</em></p>
 </div>
 
